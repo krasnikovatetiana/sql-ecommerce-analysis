@@ -1,28 +1,40 @@
-# sql-ecommerce-analysis
+sql-ecommerce-analysis
 
-Exploratory data analysis using SQL and BigQuery
+Targeted sales optimization using SQL and BigQuery
 
-🛍️ **SQL E-Commerce Sales Analysis**
+🛍️ E-Commerce Revenue Optimization: Focus on Top Category
 
-This project explores sales data from a simulated online store using the BigQuery public dataset `thelook_ecommerce`.
+This project explores sales data from a simulated online store using the BigQuery public dataset thelook_ecommerce, with the goal of identifying the most profitable product category and developing a targeted marketing strategy to increase company revenue.
 
-## 🎯 Project Goal
-The goal is to help the marketing team optimize advertising strategy by understanding what product categories sell best, when they sell, and who buys them.
+🎯 Project Goal
 
-### 📌 Key Business Questions:
-1. Which product categories generate the most revenue by month and season?
-2. Do different seasons affect sales volume?
-3. Is there a difference in purchasing behavior between genders?
-4. Which gender tends to buy more in each category?
-5. What is the best time to promote each category?
+Determine the product category that generates the highest revenue, analyze its seasonality and buyer demographics, and provide recommendations for when and to whom to promote it.
 
-## 🛠 Tools Used
-- Google BigQuery (SQL)
-- GitHub (for version control and documentation)
+📌 Key Business Questions:
 
-## 📁 Files:
-- `queries/` — contains individual SQL queries
-- `screenshots/` — visual summaries or exports
-- `README.md` — project overview and questions
-- `summary.md` — conclusions and recommendations (to be added)
+Which product category generates the most total revenue?
+
+What is the seasonality of this top category — when do its sales peak?
+
+Who are the primary buyers of this category — men or women?
+
+What are the best months and audience segments to focus advertising efforts on this category?
+
+🛠 Tools Used
+
+Google BigQuery (SQL)
+
+GitHub (for version control and documentation)
+
+📁 Files:
+
+queries/ — individual SQL queries related to the business questions
+
+results/ — CSV exports of query results
+
+screenshots/ — visual summaries (charts and tables)
+
+README.md — project overview and objectives
+
+summary.md — conclusions and marketing recommendations (in progress)
 
