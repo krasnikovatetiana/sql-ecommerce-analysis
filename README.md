@@ -38,3 +38,11 @@ README.md — project overview and objectives
 
 summary.md — conclusions and marketing recommendations (in progress)
 
+## 📊 Самая прибыльная категория
+
+**Описание:** определение категории с наибольшей выручкой по завершённым заказам.
+
+🔍 **Запрос:** [top_revenue_category.sql](queries/top_revenue_category.sql)  
+📄 **Результат:** [top_revenue_category.csv](results/top_revenue_category.csv)
+
+
