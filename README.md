@@ -38,11 +38,19 @@ README.md — project overview and objectives
 
 summary.md — conclusions and marketing recommendations (in progress)
 
-## 📊 Самая прибыльная категория
+📊 Top Revenue Category
 
-**Описание:** определение категории с наибольшей выручкой по завершённым заказам.
+Description: Identifying the product category that generated the highest total revenue from completed orders.
 
-🔍 **Запрос:** [top_revenue_category.sql](queries/top_revenue_category.sql)  
-📄 **Результат:** [top_revenue_category.csv](results/top_revenue_category.csv)
+🔍 **Query**: [top_revenue_category.sql](queries/top_revenue_category.sql)
 
+📄 **Result**: [top_revenue_category.csv](results/top_revenue_category.csv)
+
+📊 Top Revenue Category by year
+
+Description: Identifying the product category that generated the highest total revenue by year from completed orders.
+
+🔍 **Query**: [top_rev_category_by_year.sql](queries/top_rev_category_by_year.sql)
+
+📄 **Result**: [top_rev_category_by_year.csv](results/top_rev_category_by_year.csv)
 
