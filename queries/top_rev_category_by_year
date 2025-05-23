@@ -1,0 +1,26 @@
+--Which product category generated the highest revenue by year?
+with category_revenue as (
+select
+  extract(YEAR from oi.created_at) as year,
+  p.category as category,
+  round(sum(oi.sale_price),2) as total_rev
+from bigquery-public-data.thelook_ecommerce.products as p
+join bigquery-public-data.thelook_ecommerce.order_items as oi
+on p.id = oi.product_id
+where lower(oi.status) = 'complete'
+group by year, p.category 
+),
+max_revenue as (
+  select
+  year,
+  max(total_rev) as max_rev
+  from category_revenue
+  group by year
+)
+select
+   cr.year,
+  cr.category,
+   mr.max_rev
+from category_revenue as cr
+join max_revenue as mr on mr.max_rev = cr.total_rev AND mr.year = cr.year
+order by cr.YEAR
