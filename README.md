@@ -54,3 +54,14 @@ Description: Identifying the product category that generated the highest total r
 
 📄 **Result**: [top_rev_category_by_year.csv](results/top_rev_category_by_year.csv)
 
+🔍 Focus Category Selection
+In the initial query, we identified Outerwear & Coats as the overall top-performing category by total revenue across all years.
+To gain deeper insight, we then broke down the revenue by year and observed that while Outerwear & Coats and Jeans alternate as annual leaders, Outerwear & Coats:
+
+leads in the most recent two years (2024 and 2025),
+
+and remains the top revenue generator across the entire dataset.
+
+📌 Based on both cumulative and recent-year performance, we selected Outerwear & Coats as the focus category for further seasonal and demographic analysis.
+
+
